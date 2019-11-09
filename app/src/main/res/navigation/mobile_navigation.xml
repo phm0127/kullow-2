@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.yakgwa.kullow.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home_func">
+<!--        <argument-->
+<!--            android:name="Map"-->
+<!--            app:argType="com.yakgwa.mainmenu.map.MapData"-->
+<!--            android:defaultValue="@null" />-->
+<!--        <action-->
+<!--            android:id="@+id/action_nav_home_to_nav_navigation"-->
+<!--            app:destination="@id/nav_navigation" />-->
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_navigation"
+        android:name="com.yakgwa.kullow.ui.navigation.NavigationFragment"
+        android:label="@string/menu_navigation"
+        tools:layout="@layout/fragment_navigation_func" >
+<!--        <argument-->
+<!--            android:name="Map"-->
+<!--            app:argType="com.yakgwa.mainmenu.map.MapData"-->
+<!--            android:defaultValue="@null" />-->
+<!--        <action-->
+<!--            android:id="@+id/action_nav_navigation_to_nav_home"-->
+<!--            app:destination="@id/nav_home" />-->
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_building"
+        android:name="com.yakgwa.kullow.ui.building.BuildingFragment"
+        android:label="@string/menu_building"
+        tools:layout="@layout/fragment_building_func" />
+
+    <fragment
+        android:id="@+id/nav_sign"
+        android:name="com.yakgwa.kullow.ui.sign.SignFragment"
+        android:label="@string/menu_sign"
+        tools:layout="@layout/fragment_sign_func" />
+
+    <fragment
+        android:id="@+id/nav_goose"
+        android:name="com.yakgwa.kullow.ui.goose.GooseFragment"
+        android:label="@string/menu_goose"
+        tools:layout="@layout/fragment_goose_func" />
+
+</navigation>

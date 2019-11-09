@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="Student_Building" size="0.740000 0.738679" />
+    <ImageTarget name="Engineering_Building" size="0.529000 0.537984" />
+    <ImageTarget name="creditcard" size="0.080000 0.050167" />
+    <ImageTarget name="IDcard" size="0.080000 0.051857" />
+  </Tracking>
+</QCARConfig>

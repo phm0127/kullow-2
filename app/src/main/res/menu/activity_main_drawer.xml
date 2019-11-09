@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/hamburger"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_navigation"
+            android:icon="@drawable/ic_menu_navigation"
+            android:title="@string/menu_navigation" />
+        <item
+            android:id="@+id/nav_building"
+            android:icon="@drawable/ic_menu_building"
+            android:title="@string/menu_building" />
+        <item
+            android:id="@+id/nav_sign"
+            android:icon="@drawable/ic_menu_sign"
+            android:title="@string/menu_sign" />
+        <item
+            android:id="@+id/nav_goose"
+            android:icon="@drawable/ic_menu_goose"
+            android:title="@string/menu_goose" />
+
+    </group>
+</menu>
